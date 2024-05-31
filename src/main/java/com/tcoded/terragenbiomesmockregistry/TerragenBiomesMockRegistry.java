@@ -24,7 +24,7 @@ public final class TerragenBiomesMockRegistry extends JavaPlugin {
         }
 
         TerraformGeneratorPlugin.logger = new TLogger();
-        String version = Version.getVersionPackage();
+        String version = "v1_20_R4";
 
         Class<?> biomeHandle;
         try {
